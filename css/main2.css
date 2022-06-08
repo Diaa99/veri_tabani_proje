@@ -1,0 +1,161 @@
+.info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+   .info .title {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+   .info .title .heart {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    fill: #252a2e;
+  }
+   .info .title .heart:hover {
+    fill: #b93360;
+  }
+   .info .name {
+    font-size: 25px;
+    color: #2a2d30;
+  }
+   .info .price_info {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color: #2a2d30;
+  }
+   .info .reviews {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+   .info .star {
+    width: 32px;
+    height: 32px;
+  }
+   .info .colors {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+   .info .colors .color_ {
+    display: inline-block;
+    margin-left: 0.5rem;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+   .info .colors .col_1,  .info .colors .col_2,  .info .colors .col_3,  .info .colors .col_4 {
+    background-color: #21db9d;
+  }
+   .info .list {
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #2a2d30;
+    border: 3px solid #2a2d30;
+    padding: 0.5rem;
+  }
+   .info .add_to_card {
+    background-color: #111111;
+    width: 50%;
+    height: 66px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+   .info .add_to_card:hover {
+    background-color: white;
+    border: 4px solid #111111;
+    color: #111111;
+  }
+  
+  @media only screen and (max-width: 1080px) {
+
+     .info {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 50vh;
+    }
+     .images_info {
+      height: 70vh;
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 831px) {
+     .info .title {
+      width: 80%;
+    }
+     .info .price_info {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 25px;
+      color: #2a2d30;
+    }
+     .info .reviews {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+    }
+     .info .star {
+      width: 32px;
+      height: 32px;
+    }
+     .info .colors {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+    }
+     .info .colors .color_ {
+      display: inline-block;
+      margin-left: 0.5rem;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+     .info .colors .col_1,  .info .colors .col_2,  .info .colors .col_3,  .info .colors .col_4 {
+      background-color: #05da83;
+    }
+     .info .list {
+      width: 300px;
+      height: 50px;
+      margin: 0 auto;
+      font-size: 20px;
+      color: #2a2d30;
+      border: 3px solid #2a2d30;
+      padding: 0.5rem;
+    }
+     .info .add_to_card {
+      background-color: #111111;
+      width: 50%;
+      height: 66px;
+      color: white;
+      font-size: 25px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+     .info .add_to_card:hover {
+      background-color: white;
+      border: 4px solid #111111;
+      color: #111111;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+
+     .info {
+      width: 100%;
+      height: 60vh;
+      justify-content: space-between;
+    }
+  }/*# sourceMappingURL=product.css.map */

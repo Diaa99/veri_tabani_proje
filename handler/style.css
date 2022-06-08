@@ -1,0 +1,179 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: #516c83;
+}
+
+.cycle{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, #afd6ad, #a1ceaa, #94c6a6, #88bea3, #7cb6a0);
+
+
+}
+.login_ {
+  width: 60%;
+  height: 80vh;
+  border-radius: 15px;
+  background-color: #c7d9e999;
+  display: flex;
+  position: relative;
+}
+
+.back {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 25px;
+  color: #ffffff;
+  cursor: pointer;
+
+}
+
+.images {
+  position: relative;
+  border-radius: 15px 0 0px 15px;
+  z-index: 1;
+
+  background-image: linear-gradient(to bottom, #afd6ad, #a1ceaa, #94c6a6, #88bea3, #7cb6a0);
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 100%;
+}
+.images svg {
+  width: 60%;
+  height: 50%;
+}
+
+.login {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+}
+
+.test {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  color: #292929;
+}
+.test form {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.test input {
+  width: 400px;
+  height: 30px;
+  display: block;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #292929;
+  margin-top: 2rem;
+}
+.test input:focus {
+  outline: none;
+}
+.test input::-moz-placeholder {
+  color: rgb(66, 60, 60);
+}
+.test input:-ms-input-placeholder {
+  color: rgb(66, 60, 60);
+}
+.test input::placeholder {
+  color: rgb(66, 60, 60);
+}
+.test button {
+  color: white;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 4rem;
+  font-size: 18px;
+  background-color: #343246;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  padding: .5rem;
+}
+.test button:hover {
+  border: 1px solid #292929;
+  background-color: transparent;
+  color: #292929;
+}
+.test p {
+  margin-top: 2rem;
+  font-size: 15px;
+}
+.test a {
+  text-decoration: none;
+  color: #24918c;
+}/*# sourceMappingURL=style.css.map */
+ .btn_
+{
+  color: white;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 4rem;
+  font-size: 18px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  padding: .5rem;
+  background-color: #0f5e5a;
+  position: absolute;
+  bottom: 5.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.btn_:hover {
+  border: 1px solid #292929;
+  background-color: transparent;
+  color: #292929;
+}
+.test .btn_blue
+{
+  background-color: #1f708e;
+
+}
+label
+{
+  padding: 8.2px;
+}
+.test .input
+{
+  border:none;
+}
+.cont
+{
+  border-bottom: 1px solid #292929;
+  position: relative;
+}
+.test button{
+  display: inline-block;
+  width: 250px;
+}
+.test .check
+{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top:0;
+}
